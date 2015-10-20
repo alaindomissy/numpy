@@ -24,7 +24,7 @@ subclass of an ndarray, then :func:`asanyarray` can be used to allow
 subclasses to propagate more cleanly through your subroutine. In
 principal a subclass could redefine any aspect of the array and
 therefore, under strict guidelines, :func:`asanyarray` would rarely be
-useful. However, most subclasses of the arrayobject will not
+useful. However, most subclasses of the array object will not
 redefine certain aspects of the array object such as the buffer
 interface, or the attributes of the array. One important example,
 however, of why your subroutine may not be able to handle an arbitrary
